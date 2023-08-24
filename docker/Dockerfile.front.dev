@@ -4,4 +4,8 @@ ENV HOME=/home/node/
 
 WORKDIR $HOME
 
+COPY ./frontend/ /home/node/
+
 RUN yarn install
+RUN yarn build
+RUN yarn test:unit

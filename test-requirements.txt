@@ -1,5 +1,6 @@
 argon2-cffi>=16.1.0
 factory-boy<3.4.0
 httmock==1.4.0
+modoboa-webmail
 testfixtures==7.1.0
 tox

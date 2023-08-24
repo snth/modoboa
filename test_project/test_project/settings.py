@@ -31,6 +31,7 @@ ALLOWED_HOSTS = [
     'api',
     '127.0.0.1',
     'localhost',
+    '*',
 ]
 
 INTERNAL_IPS = ['127.0.0.1']
@@ -91,10 +92,11 @@ MODOBOA_APPS = (
     'modoboa.dnstools',
     'modoboa.policyd',
     'modoboa.maillog',
-    'modoboa.pdfcredentials',
+    #'modoboa.pdfcredentials',
     'modoboa.dmarc',
     'modoboa.imap_migration',
     # Modoboa extensions here.
+    'modoboa_webmail',
 )
 
 try:
