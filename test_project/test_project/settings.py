@@ -96,7 +96,6 @@ MODOBOA_APPS = (
     'modoboa.dmarc',
     'modoboa.imap_migration',
     # Modoboa extensions here.
-    'modoboa_webmail',
 )
 
 try:

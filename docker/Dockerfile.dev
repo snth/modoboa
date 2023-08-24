@@ -21,5 +21,4 @@ COPY --from=build $VIRTUAL_ENV $VIRTUAL_ENV
 RUN apk add --no-cache --update openssl librrd libxslt libjpeg libressl git rrdtool libmagic \
     && rm -rf /var/cache/apk/*
 RUN mkdir /code
-#RUN mkdir /code -p /var/lib/modoboa/pdf_credentials
 WORKDIR /code
